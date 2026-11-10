@@ -1,0 +1,38 @@
+@"
+# Python
+__pycache__/
+*.py[cod]
+*.log
+
+# Virtual environment
+.venv/
+venv/
+Lib/
+Scripts/
+share/
+pyvenv.cfg
+.lock
+CACHEDIR.TAG
+
+# UV cache
+uv-cache/
+
+# Dataset
+mv-tec ad/
+datasets/
+data/
+
+# Experiment outputs and model checkpoints
+results/
+*.ckpt
+*.pt
+*.pth
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+"@ | Set-Content .gitignore
